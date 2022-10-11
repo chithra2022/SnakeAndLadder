@@ -5,7 +5,7 @@
 body{
 	height: 100vh;
 	background-image: url("../img/bg.jpg");
-  	background-repeat: no-repeat;
+  	background-repeat: repeat;
   	background-size: cover;
 }
 .play_area{
@@ -31,6 +31,7 @@ body{
   	background-size: cover;
 	background-size: 100% 100%;
 	box-shadow: 7px 6px #b55d30;
+	margin-bottom: 40px;
 }
 .move-dot1, .move-dot2{
 	width: 22px;
@@ -51,7 +52,7 @@ body{
 }
 p{
 	font-size: 19px;
-	color: #e96632;
+	color: #2face2;
 	font-weight: bold;
 	padding-top: 15px;
 }
@@ -210,7 +211,8 @@ p{
 	}
 	.mainleft{
 		display: flex;
-		justify-content: space-evenly;align-items:center;
+		justify-content: space-evenly;
+		align-items:center;
 	}
 	.middle{
 		padding-top: 5px;
@@ -222,5 +224,8 @@ p{
 		width: 20px;
 		height: 20px;
 		margin-left: 10px;
+	}
+	p{
+		padding-top: 10px;
 	}
 }
