@@ -218,12 +218,11 @@ p{
 		padding-top: 5px;
 	}
 	.tbody{
-		width: 95%;
+		width: 100%;
 	}
 	.move-dot1, .move-dot2{
-		width: 20px;
-		height: 20px;
-		margin-left: 10px;
+		width: 21px;
+		height: 21px;
 	}
 	p{
 		padding-top: 10px;
